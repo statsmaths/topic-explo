@@ -1,0 +1,62 @@
+{
+  "topics": [
+    {
+      "short": "Cluster 1",
+      "long": "Cluster 1: Animals",
+      "proportion": 25,
+      "top_docs_ids": [0, 1, 2],
+      "doc_perc": [95, 50, 1],
+      "top_word": ["cat", "dog", "chicken", "duck"],
+      "word_wgt": [10, 9, 7, 7]
+    },
+    {
+      "short": "Cluster 2",
+      "long": "Cluster 2: Things that Fly",
+      "proportion": 75,
+      "top_docs_ids": [2, 1, 0],
+      "doc_perc": [99, 50, 5],
+      "top_word": ["airplane", "chicken", "duck"],
+      "word_wgt": [10, 5, 5]}
+  ],
+  "docs": [
+    {
+      "top_topics_ids": [0, 1],
+      "topic_weights": [95, 5],
+      "title": "Animals",
+      "text": [
+        "Animals are multicellular eukaryotic organisms that form the biological kingdom Animalia."
+      ],
+      "meta": {
+        "Date": "12 February 1809",
+        "Author": "Charles Darwin"
+      }
+    },
+    {
+      "top_topics_ids": [0, 1],
+      "topic_weights": [50, 50],
+      "title": "Birds",
+      "text": [
+        "Birds are a group of warm-blooded vertebrates characterized by feathers, toothless beaked jaws, and the laying of hard-shelled eggs.",
+        "Birds live worldwide and range in size from the 5.5 cm (2.2 in) bee hummingbird to the 2.8 m (9 ft 2 in) ostrich."
+      ],
+      "meta": {
+        "Date": "2 January 2021",
+        "Author": "David Sibley",
+        "Subtitle": "Animals that Fly"
+      }
+    },
+    {
+      "top_topics_ids": [1, 0],
+      "topic_weights": [99, 1],
+      "title": "Airplane",
+      "text": [
+        "An airplane is a powered, fixed-wing aircraft that is propelled forward by thrust.",
+        "The broad spectrum of uses for airplanes includes recreation, transportation of goods and people, military, and research.",
+        "The Wright brothers invented and flew the first airplane in 1903."
+      ],
+      "meta": {
+        "Date": "17 December 1903"
+      }
+    }
+  ]
+}
